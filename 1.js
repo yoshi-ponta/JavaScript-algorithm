@@ -101,3 +101,4 @@ switch (n) {
     console.log("凶です");
     break;
 }
+
