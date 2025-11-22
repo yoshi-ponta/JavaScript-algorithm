@@ -90,3 +90,18 @@ const toMinutes = (hour,minute) => {
 const result = toMinutes(3,20);
 // 「◯◯分」となるように、分に換算した結果を出力してください
 console.log(`${result}分`);
+
+
+const animal = {
+  name: "レオ",
+  age: 3,
+  greet: () => {
+    console.log("こんにちは");
+  }
+};
+
+// animalのnameプロパティの値を出力してください
+console.log (animal.name);
+
+// animalのgreetプロパティの関数を実行してください
+animal.greet();
