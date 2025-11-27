@@ -116,7 +116,6 @@ class Dog extends Animal {
     return this.age * 7;
   }
 }
-
 const dog = new Dog("レオ", 4);
 dog.info();
 
